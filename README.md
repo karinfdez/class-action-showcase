@@ -26,7 +26,7 @@ Law firms struggle to efficiently identify and engage potential clients who may 
 ## Screenshots & Demo
 
 **Note:**  
-_The application is privately hosted and not open for public access. For privacy and security reasons, I am providing a video demo below to showcase the platform’s features and user experience. If you would like a private walkthrough, please contact me directly.
+The application is privately hosted and not open for public access. For privacy and security reasons, I am providing a video demo below to showcase the platform’s features and user experience. If you would like a private walkthrough, please contact me directly.
 
 
 ![Main Dashboard](./screenshots/dashboard.png)
