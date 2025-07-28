@@ -23,17 +23,13 @@ Law firms struggle to efficiently identify and engage potential clients who may 
 - **Automated Communication**: AI-powered email templates via Cloudflare Workers to inform potential clients of their legal options
 
 
-## Screenshots & Demo
+## DEMO
 
 **Note:**  
-The application is privately hosted and not open for public access. For privacy and security reasons, I am providing a video demo below to showcase the platform’s features and user experience. If you would like a private walkthrough, please contact me directly.
+The application is privately hosted and not open for public access. For privacy and security reasons, I am providing a video demo below to showcase the platform’s features and user experience. 
 
 
-![Main Dashboard](./screenshots/dashboard.png)
-![Profile Search](./screenshots/profile-search.png)
-![Email Service](./screenshots/email-service.png)
-
-[Watch the full demo here](./class-action-demo.mov)
+[Watch the full demo here](https://drive.google.com/drive/folders/1ORckawYxMN995KAE67kY-Uvs4VcFKk6k)
 
 ---
 
