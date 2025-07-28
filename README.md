@@ -33,7 +33,7 @@ The application is privately hosted and not open for public access. For privacy 
 ![Profile Search](./screenshots/profile-search.png)
 ![Email Service](./screenshots/email-service.png)
 
-[Watch the full demo here](YOUR_VIDEO_LINK)
+[Watch the full demo here](./class-action-demo.mov)
 
 ---
 
