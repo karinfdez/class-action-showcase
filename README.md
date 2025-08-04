@@ -5,6 +5,14 @@
 [![Supabase](https://img.shields.io/badge/Supabase-Auth%20%26%20DB-38BDF8?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.3-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
+## DEMO
+
+**Note:**  
+The application is privately hosted and not open for public access. For privacy and security reasons, I am providing a video demo below to showcase the platform’s features and user experience. 
+
+
+[Watch the full demo here](https://www.youtube.com/watch?v=nSMyOyMHcmA)
+
 ## Project Overview
 
 Class Action is a multi-tenant web platform designed to identify, contact, and recruit potential clients for employment class action lawsuits. The system enables law firms to search and fetch profiles of individuals based on their past job experience with a specific company, order and filter these profiles by relevant class action periods, and reach out to them directly via email. This platform connects individuals affected by workplace violations with law firms handling relevant class action litigation, streamlining the process of finding and engaging qualified participants.
@@ -21,15 +29,6 @@ Law firms struggle to efficiently identify and engage potential clients who may 
 - **Client Acquisition**: Identifies and organizes potential class action participants for targeted outreach
 - **Targeted Outreach**: Connects affected individuals with appropriate legal representation through customized email communication
 - **Automated Communication**: AI-powered email templates via Cloudflare Workers to inform potential clients of their legal options
-
-
-## DEMO
-
-**Note:**  
-The application is privately hosted and not open for public access. For privacy and security reasons, I am providing a video demo below to showcase the platform’s features and user experience. 
-
-
-[Watch the full demo here](https://drive.google.com/drive/folders/1ORckawYxMN995KAE67kY-Uvs4VcFKk6k)
 
 ---
 
