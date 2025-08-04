@@ -5,13 +5,17 @@
 [![Supabase](https://img.shields.io/badge/Supabase-Auth%20%26%20DB-38BDF8?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.3-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
+**Note:**  
+This is a showcase repository for the Class Action: Employment Litigation Management project.
+The actual production codebase is private due to privacy and security concerns.
+
+This repository includes a detailed project description, the tech stack used, and a video demo of the application to illustrate its features and functionality.
+
+
 ## DEMO
 
-**Note:**  
-The application is privately hosted and not open for public access. For privacy and security reasons, I am providing a video demo below to showcase the platform’s features and user experience. 
-
-
 [Watch the full demo here](https://www.youtube.com/watch?v=nSMyOyMHcmA)
+
 
 ## Project Overview
 
