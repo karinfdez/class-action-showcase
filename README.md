@@ -5,7 +5,7 @@
 [![Supabase](https://img.shields.io/badge/Supabase-Auth%20%26%20DB-38BDF8?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.3-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-**Note:**  
+## Note  
 This is a showcase repository for the Class Action: Employment Litigation Management project.
 The actual production codebase is private due to privacy and security concerns.
 
