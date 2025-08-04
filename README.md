@@ -7,7 +7,7 @@
 
 ## Note  
 This is a showcase repository for the Class Action: Employment Litigation Management project.
-The actual production codebase is private due to privacy and security concerns.
+The actual production codebase is private.
 
 This repository includes a detailed project description, the tech stack used, and a video demo of the application to illustrate its features and functionality.
 
