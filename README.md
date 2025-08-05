@@ -8,8 +8,6 @@
 ## Note  
 This repository is a public showcase of a private project. The actual source code is private, but this outlines the architecture, technologies used, and demo links.
 
-This repository includes a detailed project description, the tech stack used, and a video demo of the application to illustrate its features and functionality.
-
 
 ## DEMO
 
