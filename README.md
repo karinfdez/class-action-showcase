@@ -81,7 +81,7 @@ open http://localhost:3000
 
 ## Technologies
 
-- **Frontend Framework**: Next.js 14 ko
+- **Frontend Framework**: Next.js 14
 - **UI Library**: React 18
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
