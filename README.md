@@ -6,8 +6,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.3-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
 ## Note  
-This is a showcase repository for the Class Action: Employment Litigation Management project.
-The actual production codebase is private.
+This repository is a public showcase of a private project. The actual source code is private, but this outlines the architecture, technologies used, and demo links.
 
 This repository includes a detailed project description, the tech stack used, and a video demo of the application to illustrate its features and functionality.
 
