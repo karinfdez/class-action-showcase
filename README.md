@@ -4,21 +4,6 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.9-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Supabase](https://img.shields.io/badge/Supabase-Auth%20%26%20DB-38BDF8?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.3-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-
-## Note  
-This repository is a public showcase of a private project. The actual source code is private, but this outlines the architecture, technologies used, and demo links.
-
-
-## DEMO
-
-[Watch the full demo here](https://www.youtube.com/watch?v=nSMyOyMHcmA)
-
-# Class Action: Employment Litigation Management
-
-[![Built with Next.js](https://img.shields.io/badge/Built%20with-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-4.9-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Supabase](https://img.shields.io/badge/Supabase-Auth%20%26%20DB-38BDF8?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.3-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![TanStack Query](https://img.shields.io/badge/TanStack%20Query-5.0-FF4154?style=flat-square&logo=react-query&logoColor=white)](https://tanstack.com/query)
 
 **Note:**  
@@ -33,6 +18,7 @@ Class Action is a multi-tenant web platform designed to identify, contact, and r
 
 ---
 
+
 ### Business Problem Solved
 
 Law firms struggle to efficiently identify and engage potential clients who may qualify for employment class action lawsuits, especially those who worked for a specific company during a relevant time period. This platform bridges the gap between affected individuals and legal representation by:
@@ -45,6 +31,14 @@ Law firms struggle to efficiently identify and engage potential clients who may 
 - **Targeted Outreach**: Connects affected individuals with appropriate legal representation through customized email communication
 - **Automated Communication**: AI-powered email templates via Cloudflare Workers to inform potential clients of their legal options
 
+
+## Screenshots
+
+![Main Dashboard](./screenshots/dashboard.png)
+![Profile Search](./screenshots/profile-search.png)
+![Email Service](./screenshots/email-service.png)
+
+---
 
 ## 🛠️ Technology Stack
 
@@ -107,10 +101,17 @@ app/
 │   └── teams/           # Team collaboration features
 ├── api/                 # Next.js API routes
 │   └── companies/       # Company and profile endpoints
-├── components/          # Reusable UI components
-│   ├── ui/              # Base UI components (Radix UI)
-│   ├── CompanyProfiles/ # Profile table and management
-│   └── LoadMoreProfiles.tsx # Dynamic profile loading
+├── components/          # Organized component structure
+│   ├── ui/              # Reusable UI primitives (Button, Modal, etc.)
+│   ├── layout/          # Layout components (Header, Footer, Sidebar)
+│   ├── features/        # Feature-specific components
+│   │   ├── auth/        # Authentication components
+│   │   ├── cases/       # Case management components
+│   │   │   └── company-profiles/ # Company profile management
+│   │   ├── profiles/    # Profile-related components
+│   │   │   └── load-more-profiles/ # Dynamic profile loading
+│   │   └── teams/       # Team collaboration components
+│   └── CompanyProfiles/ # Legacy component (being phased out)
 ├── lib/                 # Client-side utilities
 │   └── fetchCompaniesProfiles.ts # React Query fetcher
 ├── utils/supabase/      # Supabase utilities and data layer
@@ -142,9 +143,18 @@ open http://localhost:3000
 - **Animations**: Framer Motion
 - **Database Indexes**: Optimized Supabase queries with custom indexes on `company_id`, `full_name`, `email`, and `location`
 
-## 🔗 Design Resources
+## 🎨 Design System
 
-View the application wireframes and design system on [Figma](https://www.figma.com/board/0n73dQHwWePl8IaZ6UFjF3/LexQuery?node-id=0-1&t=yp5DYCHHaFFJGuM6-1)
+The application uses a comprehensive design system built on top of Tailwind CSS. For detailed documentation on colors, typography, components, and usage patterns, see:
+
+- **[Design System Documentation](./DESIGN_SYSTEM.md)** - Complete guide to colors, typography, components, and best practices
+- **[Figma Wireframes](https://www.figma.com/board/0n73dQHwWePl8IaZ6UFjF3/LexQuery?node-id=0-1&t=yp5DYCHHaFFJGuM6-1)** - Application wireframes and design mockups
+
+### Key Design Features
+- Semantic color tokens with automatic dark mode support
+- Consistent typography scale (title, label, paragraph, subheading)
+- Pre-built button components with multiple variants
+- Organized component structure following domain-driven design
 
 ## Roadmap
 
@@ -156,8 +166,19 @@ View the application wireframes and design system on [Figma](https://www.figma.c
 - Secure API routes with Supabase Auth (httpOnly cookies)
 - Email outreach system via Cloudflare Workers
 - Page transition animations with Framer Motion
+- Organized component architecture with domain-driven structure
+- Comprehensive design system with semantic tokens
+- Consistent UI patterns and reusable components
+
+### Recent Improvements ✨
+- **Component Reorganization**: Restructured components into ui/, layout/, and features/ folders
+- **Design System**: Added comprehensive design system documentation
+- **Button Consistency**: Standardized button styling across the application
+- **React Query Optimization**: Fixed hydration issues and improved caching
+- **Navigation Updates**: Updated links to point to correct routes (/cases instead of /dashboard)
 
 ### In Progress 🚧
 - Server-side filtering and sorting API endpoints
 - Fetch limited profiles initially (50) for faster page loads
 - Advanced pagination with offset/cursor support
+- Complete migration from legacy components to new organized structure
