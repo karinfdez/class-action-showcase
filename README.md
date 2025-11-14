@@ -43,7 +43,7 @@ Law firms struggle to efficiently identify and engage potential clients who may 
 ## 🛠️ Technology Stack
 
 ### Frontend
-- **Framework**: Next.js 14 (React 18) with App Router
+- **Framework**: Next.js 16 (React 18.3.1) with App Router
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS with custom components
 - **State Management**: React Hooks and Jotai for global state
