@@ -9,7 +9,7 @@
 **Note:**  
 The application is privately hosted and not open for public access. For privacy and security reasons, I am providing a video demo below to showcase some of the platform's features and user experience. If you would like a private walkthrough, please contact me directly.
 
-[Watch the full demo here](https://www.youtube.com/watch?v=nSMyOyMHcmA)
+[Watch the full demo here](https://youtu.be/i4KedkjrCZQ)
 
 
 ## Project Overview
